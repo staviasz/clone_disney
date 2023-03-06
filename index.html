@@ -24,12 +24,12 @@
             <ul class="hero__content__combos">
                 <li class="hero__content__combos__combo">
                     <img src="dist/images/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button>Assine agora</button>
+                    <button class="button">Assine agora</button>
                     <span class="text">R$45,90/mês*</span>
                 </li>
                 <li class="hero__content__combos__combo">
-                    <img src="dist/images/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button>Assine agora</button>
+                    <img src="dist/images/images/logos/disney_star_plus_starzplay.png" alt="Disney+ - Star+ - Combo+">
+                    <button class="button">Assine agora</button>
                     <span class="text">R$55,90/mês*</span>
                 </li>
             </ul>
@@ -38,5 +38,106 @@
             </p>
         </div>
     </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">Em breve</button>
+            <button data-tab-button="mais_populares" class="shows__tabs__button">Mais populares</button>
+            <button data-tab-button="mais_star" class="shows__tabs__button">Mais no Star+</button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="dist/images/images/em_breve/desencantada.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/em_breve/lobisomem.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/em_breve/sem_limites.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/em_breve/spidey.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/em_breve/the_santa_clauses.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/em_breve/willow.jpg" alt="Desencantada">
+            </li>
+        </ul>
+        <ul data-tab-id="mais_populares" class="shows__list ">
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_populares/bluey.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_populares/cavaleira_da_lua.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_populares/o_incrivel_dr_pol.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_populares/obi_wan.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_populares/red.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_populares/tudo_igual_sqn.jpg" alt="Desencantada">
+            </li>
+        </ul>
+        <ul data-tab-id="mais_star" class="shows__list ">
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_no_star_plus/belair.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_no_star_plus/libertadores.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_no_star_plus/nba.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_no_star_plus/os_simpson.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_no_star_plus/premier_league.jpg" alt="Desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="dist/images/images/mais_no_star_plus/the_kardashians.jpg" alt="Desencantada">
+            </li>
+        </ul>
+    </section>
+    <section class="plans">
+        <h2 class="title--big">Escolha o seu plano</h2>
+        <ul class="plans__list">
+            <li class="plans__list__item">
+                <img src="dist/images/images/logos/disneyplus_underline.png" alt="Disney+">
+                <strong class="title--small">R$ 27,90/mês*</strong>
+                <p class="text">
+                    No disney+ você encontra as ultimas estreias do cinema, originais e clássicos inesquecíveis
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="dist/images/images/logos/disney_star_plus_sm.png" alt="Disney+">
+                <strong class="title--small">R$ 27,90/mês*</strong>
+                <p class="text">
+                    No disney+ você encontra as ultimas estreias do cinema, originais e clássicos inesquecíveis
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+            <li class="plans__list__item">
+                <img src="dist/images/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
+                <strong class="title--small">R$ 27,90/mês*</strong>
+                <p class="text">
+                    No disney+ você encontra as ultimas estreias do cinema, originais e clássicos inesquecíveis
+                </p>
+                <button class="button">Assine agora</button>
+            </li>
+        </ul>
+        <p class="text--small">
+            *O preço pode variar caso a assinatura seja feita atravéz de outra plataforma
+        </p>
+    </section>
+
+    <script src="./src/main.js"></script>
 </body>
 </html>
