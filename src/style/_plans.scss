@@ -9,6 +9,13 @@
         display: flex;
         justify-content: space-around;
         
+        @media (max-width: 7678px) {
+            display: block;
+        }
+
+        .button {
+            margin-top: 24px;
+        }
         
         &__item {
             text-align: center;
